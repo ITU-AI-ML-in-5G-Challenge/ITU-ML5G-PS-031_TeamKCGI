@@ -21,5 +21,6 @@ Packet loss ratios: 0.001%, 0.01%, 0.025%, 0.05%, 0.1%, and 0.25%.
 - prediction
 # Result
 The performance of the proposed models are evaluated based on mean absolute error (MAE).
+[Final report](https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-031_TeamKCGI/blob/main/ITU-JP-Theme2_Report_KCGI.pdf)
 - MAE of Throughput: 4.44 
 - MAE of Packet loss ratio: 0.04
