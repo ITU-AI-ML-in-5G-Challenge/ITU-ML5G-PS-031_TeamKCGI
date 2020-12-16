@@ -14,11 +14,11 @@ Packet loss ratios: 0.001%, 0.01%, 0.025%, 0.05%, 0.1%, and 0.25%.
 - Keras 2.4.3
 - OpenCV 3.4.2
 # Proposed Method
-- Gathering file size and video bit rate from both original video and received video.
+- Gathering file size and video bit rate from both original video and received video.(I used a software named 'Media Info')
 - Learning throughput using gathered file size and video bit rate though a neural network.
 - Extract every frame from both original video and received video and calculate PSNR for each frame.
 - Learning Packet loss ratio using calculated PSNR though a neural network.
-- prediction
+- Prediction
 # Result
 The performance of the proposed models are evaluated based on mean absolute error (MAE).  
 [Final report](https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-031_TeamKCGI/blob/main/ITU-JP-Theme2_Report_KCGI.pdf)
